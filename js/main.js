@@ -38,7 +38,7 @@ const showInModal = country => {
           <p><i class="fas fa-check-circle"></i> Capital: ${country.capital}</p>
           <p><i class="fas fa-check-circle"></i> Region: ${country.region}</p>
           <p><i class="fas fa-check-circle"></i> Subregion: ${country.subregion}</p>
-          <p><i class="fas fa-check-circle"></i> Language: ${country.language}</p>
+          <p><i class="fas fa-check-circle"></i> Language: ${country.languages[0].namegit }</p>
           <p><i class="fas fa-check-circle"></i> Area: ${country.area}</p>
           <p><i class="fas fa-check-circle"></i> Population: ${country.population}</p>
           <p><i class="fas fa-check-circle"></i> Timezones: ${country.timezones}</p>
